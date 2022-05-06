@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: url("../Imgs/HomeP.jpg") no-repeat center 85px;
+    background-size: cover;
+    padding: 90px 20px 0;
+}
+
+.header{
+    background-color: rgb(252, 255, 240);
+    height: 80 px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    font-weight: blod;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+.navBar-link{
+    color: rgb(250, 17, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo{
+    text-decoration: none;
+    padding: 0 8%;
+    line-height: 70px;
+    color:rgb(8, 89, 104);
+    font-weight: bold;
+    font-size: 20pt;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 100px;
+    list-style: none;
+    font-weight: blod;
+}
+.nav-menu-item{
+    font-size:16px;
+    margin:0 1px;
+    line-height: 85px;
+    width: max-content;
+}
+.registro {
+	background: #fff;
+	color: #0D47A1;
+	top:85px;
+	left:0;
+	position: absolute;
+	box-sizing:border-box;
+	padding:100px 60px;
+}
+
+.registro .avatar{
+	width: 150px;
+	height: 70px;
+	border-radius:5%;
+	position: absolute;
+	top:0;
+	left: 0;
+    opacity: 10%;
+}
+.nav-menu-link:hover {
+    background-color:rgba(247, 238, 214, 0.973);
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
